@@ -5,7 +5,7 @@
 function Header() {
   return (
     <header className="header" style={styles.header}>
-      <h1 style={styles.logo}>🏘️ CommunityHub</h1>
+      <h1 style={styles.logo}>🏘️ SocialHub</h1>
       <nav style={styles.nav}>
         <a href="#home" style={styles.link}>Home</a>
         <a href="#posts" style={styles.link}>Posts</a>
