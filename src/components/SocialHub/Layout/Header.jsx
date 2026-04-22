@@ -1,5 +1,5 @@
 /**
- * 🔹 CommunityHub: Header Component
+ * 🔹 SocialHub: Header Component
  */
 import Button from '../shared/Button'
 
@@ -7,7 +7,7 @@ function Header({ user, onLogin }) {
   return (
     <header style={styles.header}>
       <div style={styles.container}>
-        <h1 style={styles.logo}>🏘️ CommunityHub</h1>
+        <h1 style={styles.logo}>🏘️ SocialHub</h1>
         
         <nav style={styles.nav}>
           <a href="#home" style={styles.link}>Home</a>

@@ -1,5 +1,5 @@
 /**
- * 🔹 CommunityHub: Sidebar Component
+ * 🔹 SocialHub: Sidebar Component
  */
 import Card from '../shared/Card'
 
@@ -19,7 +19,7 @@ function Sidebar({ popularPosts = [], tags = [] }) {
     <aside style={styles.sidebar}>
       <Card title="📚 About" variant="primary">
         <p style={styles.text}>
-          CommunityHub connects developers to share knowledge, 
+          SocialHub connects developers to share knowledge, 
           ask questions, and grow together.
         </p>
       </Card>

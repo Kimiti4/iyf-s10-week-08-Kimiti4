@@ -1,5 +1,5 @@
 /**
- * 🔹 CommunityHub: Footer Component
+ * 🔹 SocialHub: Footer Component
  */
 function Footer() {
   return (
@@ -12,7 +12,7 @@ function Footer() {
           <a href="#contact" style={styles.link}>Contact</a>
         </div>
         <p style={styles.copyright}>
-          &copy; 2026 CommunityHub. Built with ❤️ for IYF Summer 2026.
+          &copy; 2026 SocialHub. Built with ❤️ for IYF Summer 2026.
         </p>
       </div>
     </footer>

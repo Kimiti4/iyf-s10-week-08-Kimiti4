@@ -1,6 +1,6 @@
 /**
  * 🔹 Task 15.2: Header Component
- * Simple navigation header for CommunityHub
+ * Simple navigation header for SocialHub
  */
 function Header() {
   return (

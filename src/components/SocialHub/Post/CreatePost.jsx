@@ -1,5 +1,5 @@
 /**
- * 🔹 CommunityHub: CreatePost Form Component
+ * 🔹 SocialHub: CreatePost Form Component
  */
 import { useState } from 'react'
 import Input from '../shared/Input'

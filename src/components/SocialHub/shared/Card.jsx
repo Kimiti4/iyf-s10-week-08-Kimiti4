@@ -1,5 +1,5 @@
 /**
- * 🔹 CommunityHub: Reusable Card Component
+ * 🔹 SocialHub: Reusable Card Component
  */
 function Card({ children, title, variant = 'default', style: customStyle = {} }) {
   return (

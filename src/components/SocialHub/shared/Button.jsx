@@ -1,5 +1,5 @@
 /**
- * 🔹 CommunityHub: Reusable Button Component
+ * 🔹 SocialHub: Reusable Button Component
  */
 function Button({
   children,

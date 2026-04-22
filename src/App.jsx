@@ -1,12 +1,12 @@
 /**
- * 🔹 CommunityHub: Main App Component
+ * 🔹 SocialHub: Main App Component
  * Combines all layout and feature components
  */
 import { useState } from 'react'
-import Header from './components/CommunityHub/Layout/Header'
-import Footer from './components/CommunityHub/Layout/Footer'
-import Sidebar from './components/CommunityHub/Layout/Sidebar'
-import PostList from './components/CommunityHub/Post/PostList'
+import Header from './components/SocialHub/Layout/Header'
+import Footer from './components/SocialHub/Layout/Footer'
+import Sidebar from './components/SocialHub/Layout/Sidebar'
+import PostList from './components/SocialHub/Post/PostList'
 import './App.css'
 
 function App() {

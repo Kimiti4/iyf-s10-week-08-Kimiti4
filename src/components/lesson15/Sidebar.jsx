@@ -6,7 +6,7 @@ function Sidebar() {
     <aside className="sidebar" style={styles.sidebar}>
       <section style={styles.section}>
         <h4>About</h4>
-        <p style={styles.text}>CommunityHub connects people through shared interests.</p>
+        <p style={styles.text}>SocialHub connects people through shared interests.</p>
       </section>
       
       <section style={styles.section}>

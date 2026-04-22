@@ -13,7 +13,7 @@
 - **Date:** April 21, 2026
 
 ## Project Description
-A React fundamentals repository built with Vite, covering JSX, components, props, state management with `useState`, event handling, and component composition. Features the CommunityHub frontend—a social platform UI with posts, user interactions, and dynamic content—plus daily challenge components demonstrating progressive React skills.
+A React fundamentals repository built with Vite, covering JSX, components, props, state management with `useState`, event handling, and component composition. Features the SocialHub frontend—a social platform UI with posts, user interactions, and dynamic content—plus daily challenge components demonstrating progressive React skills.
 
 ## Technologies Used
 - React 18 (Functional Components + Hooks)
@@ -38,7 +38,7 @@ A React fundamentals repository built with Vite, covering JSX, components, props
 - ✅ Immutable updates for arrays/objects in state
 - ✅ Lifting state up to share between components
 
-### Mini-Project: CommunityHub Frontend
+### Mini-Project: SocialHub Frontend
 #### 🏘️ Layout Components
 - **Header**: Logo, navigation, user login/logout toggle
 - **Footer**: Links, copyright, responsive design

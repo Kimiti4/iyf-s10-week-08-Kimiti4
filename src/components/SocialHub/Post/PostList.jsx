@@ -1,5 +1,5 @@
 /**
- * 🔹 CommunityHub: PostList with state management
+ * 🔹 SocialHub: PostList with state management
  */
 import { useState } from 'react'
 import PostCard from './PostCard'

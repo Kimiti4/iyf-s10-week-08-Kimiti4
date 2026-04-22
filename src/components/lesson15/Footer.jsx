@@ -4,7 +4,7 @@
 function Footer() {
   return (
     <footer className="footer" style={styles.footer}>
-      <p>&copy; 2026 CommunityHub. All rights reserved.</p>
+      <p>&copy; 2026 SocialHub. All rights reserved.</p>
     </footer>
   )
 }

@@ -12,7 +12,7 @@ function Greeting({ name = 'Guest', timeOfDay = 'morning' }) {
   return (
     <div style={styles.container}>
       <h2 style={styles.greeting}>{messages[timeOfDay] || messages.morning}</h2>
-      <p style={styles.subtext}>Welcome to CommunityHub</p>
+      <p style={styles.subtext}>Welcome to SocialHub</p>
     </div>
   )
 }

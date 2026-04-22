@@ -1,5 +1,5 @@
 /**
- * 🔹 CommunityHub: PostCard with interactive features
+ * 🔹 SocialHub: PostCard with interactive features
  */
 import { useState } from 'react'
 import Button from '../shared/Button'

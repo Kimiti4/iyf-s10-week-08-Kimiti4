@@ -1,5 +1,5 @@
 /**
- * 🔹 CommunityHub: Reusable Input Component
+ * 🔹 SocialHub: Reusable Input Component
  */
 function Input({
   type = 'text',
