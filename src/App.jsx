@@ -6,7 +6,10 @@ import { useState } from 'react'
 import Header from './components/SocialHub/Layout/Header'
 import Footer from './components/SocialHub/Layout/Footer'
 import Sidebar from './components/SocialHub/Layout/Sidebar'
-import PostList from './components/SocialHub/Post/PostList'
+import HomeHero from './components/SocialHub/Sections/HomeHero'
+import PostsSection from './components/SocialHub/Sections/PostsSection'
+import ExploreSection from './components/SocialHub/Sections/ExploreSection'
+import AboutSection from './components/SocialHub/Sections/AboutSection'
 import './App.css'
 
 function App() {
@@ -23,7 +26,10 @@ function App() {
       
       <div style={styles.content}>
         <main style={styles.main}>
-          <PostList />
+          <HomeHero user={user} />
+          <PostsSection />
+          <ExploreSection />
+          <AboutSection />
         </main>
         
         <Sidebar />
@@ -43,6 +49,8 @@ const styles = {
   },
   content: {
     display: 'flex',
+    flexWrap: 'wrap',
+    alignItems: 'flex-start',
     flex: 1,
     gap: '1.5rem',
     padding: '2rem',
@@ -52,7 +60,10 @@ const styles = {
     boxSizing: 'border-box'
   },
   main: {
-    flex: 1,
+    flex: '1 1 760px',
+    display: 'flex',
+    flexDirection: 'column',
+    gap: '1.5rem',
     minWidth: 0 // Prevents flex overflow
   }
 }
