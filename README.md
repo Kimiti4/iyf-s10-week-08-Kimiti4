@@ -3,7 +3,6 @@
 
 # 📄 Week 8 README.md
 
-```markdown
 # iyf-s10-week-08-Kimiti4
 # Week 8: React Fundamentals
 
@@ -66,6 +65,9 @@ A React fundamentals repository built with Vite, covering JSX, components, props
 | 4 | `Button.jsx` | Multiple props, loading state, accessibility |
 | 5 | `PageLayout.jsx` | Layout composition, responsive design patterns |
 
+##Live Demo
+[Community Hub Project](https://kimiti4.github.io/iyf-s10-week-08-Kimiti4/)
+
 ## How to Run
 ### Option 1: Development Mode
 ```bash
@@ -84,9 +86,9 @@ npm run dev
 ```
 
 ### Option 2
-# Create a new Vite project: 
+#### Create a new Vite project: 
 npm create vite@latest test -- --template react
 
-# Copy any component file into src/components/
+#### Copy any component file into src/components/
 
-# Import and use in App.jsx
+#### Import and use in App.jsx
